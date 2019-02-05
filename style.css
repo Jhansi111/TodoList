@@ -14,6 +14,7 @@ background: linear-gradient(to right, #a2ab58, #636363); /* W3C, IE 10+/ Edge, F
 	box-shadow:  2px 3px  #997950;
 }
 
+
 h1{
 	background-color: #997950;
 	margin: 0;
@@ -92,3 +93,14 @@ li:hover span{
 /*.j3{
 	display:none;
 }*/
+
+
+/*media queries*/
+
+@media screen and (max-width: 1000px){
+	#box{
+	margin: 5% 15%;
+	width: 25%;
+	box-shadow:  2px 3px  #997950;
+}
+}
